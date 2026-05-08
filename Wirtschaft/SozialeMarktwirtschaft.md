@@ -201,6 +201,10 @@ Misst die durchschnittliche Preisentwicklung für einen **typischen Warenkorb** 
 
 Gewichtung = Anteil am durchschnittlichen Haushaltsbudget (z. B. Wohnen ≈ 1/3 → hohe Gewichtung). Anpassung alle **5 Jahre** an veränderte Konsumgewohnheiten.
 
+Anpassung weil: 
+- neue Produkte
+- Gewichtung ändert sich: wenn Butter teurer wird, steigen viele auf Margarine um
+
 ### Berechnung
 
 ```text
