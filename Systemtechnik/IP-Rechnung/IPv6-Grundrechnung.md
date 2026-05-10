@@ -6,7 +6,7 @@
 
 ```text
 2001:0db8:1234:0001:0000:0000:0000:0001 / 64
-└─── Netzanteil (64 Bit) ──┘└─── Interface-ID ──┘
+└─── Netzanteil ──┘└── Interface-ID ──┘
 ```
 
 ## Komprimierungsregeln
