@@ -30,7 +30,7 @@ Vor dem SQL-Code kommt das Design: Ein **Entity-Relationship-Modell (ER-Modell)*
 ```text
 Tabellenname(Attribut1, Attribut2, Attribut3)
               ─────────                           ← Primärschlüssel: unterstrichen
-                                    ─────────    ← Fremdschlüssel: gestrichelt unterstrichen
+                                    ┄┄┄┄┄┄┄┄┄    ← Fremdschlüssel: gestrichelt unterstrichen
 ```
 
 **Konvention in der Prüfung:** PK wird unterstrichen, FK durch Kennzeichnung (z.B. kursiv oder Fußnote) markiert. Beide können zusammenfallen (zusammengesetzter PK mit FK-Anteil).
@@ -44,7 +44,7 @@ Verkaufsraum(RaumNr, Bezeichnung)
 Kasse(KassenNr, PIN, Betrag, RaumNr)          ← RaumNr ist FK → Verkaufsraum
 Personal(PersonalNr, Name)
 PersonalRaum(RaumNr, PersonalNr)              ← Zwischentabelle für m:n
-              ───────  ──────────               beide zusammen = PK, beide = FK
+              ┄┄┄┄┄┄┄  ┄┄┄┄┄┄┄┄┄┄               beide zusammen = PK, beide = FK
 ```
 
 > [!tip] **Merksatz**
